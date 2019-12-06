@@ -19,5 +19,6 @@ from django.urls import path,include
 urlpatterns = [
     path('admin/', admin.site.urls),
     # Rest framework urls
-    path('',include('registration.api.urls')),
+    path('registration/',include('registration.api.urls')),
+    
 ]

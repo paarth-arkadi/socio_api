@@ -11,21 +11,21 @@ Model:
 
 To make a get request using CURL:
 use:
-curl localhost:8000/users_socio/
+curl localhost:8000/registration/users_socio/
 
 output:
 [{"id": 1, "first_name": "Vaibhav", "last_name": "Ghaisas"}, {"id": 2, "first_name": "Paarth", "last_name": "Arkadi"}]
 
 To make a get request for certain primary key using CURL:
 use:
-curl localhost:8000/users_socio/1/
+curl localhost:8000/registration/users_socio/1/
 
 output:
 {"id": 1, "first_name": "Vaibhav", "last_name": "Ghaisas"}
 
 To make a post request using CURL:
 use:
-curl -X POST localhost:8000/users_socio/ -d "{\"first_name\":\"Paarth\", \"last_name\":\"Arkadi\"}" -H "Content-Type: application/json"
+curl -X POST localhost:8000/registration/users_socio/ -d "{\"first_name\":\"Paarth\", \"last_name\":\"Arkadi\"}" -H "Content-Type: application/json"
 
 output:
 {"id": 2, "first_name": "Paarth", "last_name": "Arkadi"}
