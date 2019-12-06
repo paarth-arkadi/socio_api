@@ -1,0 +1,11 @@
+Django==2.2.2
+django-filter==2.2.0
+djangorestframework==3.10.3
+Markdown==3.1.1
+mpmath==1.1.0
+Pygments==2.5.2
+pytz==2019.3
+sqlparse==0.3.0
+sympy==1.4
+virtualenv==16.7.4
+httpie==1.0.3
