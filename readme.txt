@@ -1,5 +1,5 @@
 django rest api for socio android app
-* use " pip install -r requriements.txt " to setup all the requriements
+* use " pip install -r requirements.txt " to setup all the requriements
   for this project
 
 Api v1.0
